@@ -1,0 +1,62 @@
+{
+ "ЯБЛОЧНЫЙ ПИРОГ": {
+  "ingridients": [
+   {
+    "product": "Яйца ",
+    "quantity": 1,
+    "unit": " шт\n"
+   },
+   {
+    "product": "Мука ",
+    "quantity": 300,
+    "unit": " г\n"
+   },
+   {
+    "product": "Масло ",
+    "quantity": 60,
+    "unit": " г\n"
+   },
+   {
+    "product": "Яблоки ",
+    "quantity": 80,
+    "unit": " г\n"
+   }
+  ],
+  "name": "ЯБЛОЧНЫЙ ПИРОГ"
+ },
+ "СУП": {
+  "ingridients": [
+   {
+    "product": "Вода ",
+    "quantity": 100,
+    "unit": " мл\n"
+   },
+   {
+    "product": "Помидор ",
+    "quantity": 300,
+    "unit": " г\n"
+   }
+  ],
+  "name": "СУП"
+ },
+ "ОМЛЕТ": {
+  "ingridients": [
+   {
+    "product": "Яйца ",
+    "quantity": 2,
+    "unit": " шт\n"
+   },
+   {
+    "product": "Молоко ",
+    "quantity": 50,
+    "unit": " мл\n"
+   },
+   {
+    "product": "Помидор ",
+    "quantity": 100,
+    "unit": " г\n"
+   }
+  ],
+  "name": "ОМЛЕТ"
+ }
+}
