@@ -1,25 +1,20 @@
 #-*- coding: utf-8 -*-
 
+
 cook_book= {}
 with open('cook_book.txt', 'r', encoding='utf-8') as cook_book_file:
     for line in cook_book_file:
         dish_name=line.strip().upper()
         ingridients_count = int(cook_book_file.readline())
         ingridients = []
-       # print (dish_name, '\n', ingridients_count)
         for i in range(ingridients_count):
             ingridients_name, ingridients_quantity, ingridients_unit = cook_book_file.readline().split('|') 
             ingridients_quantity_int = int(ingridients_quantity)
             ingridients.append ( {'product' :  ingridients_name, 'quantity': ingridients_quantity_int, 'unit':  ingridients_unit})
-        
-            #print (ingridients_name, '\n', ingridients_quantity_int, '\n', ingridients_unit)
-           # print(ingridients[i])
         dish = {'name': dish_name, 'ingridients': ingridients} 
-       # print(dish)
         cook_book_file.readline() 
         cook_book.update({dish_name: dish})
-print (cook_book)
-    
+
 def get_shop_list_by_dishes(dishes, people_count):
     shop_list = {}
     for dish in dishes:
@@ -49,11 +44,11 @@ def create_shop_list(people_count, first_dish, second_dish, third_dish):
     print_shop_list(shop_list)
 
 print('Выберите первое блюдо: ')
-first_dish = input().upper()
+first_dish = input().upper().strip()
 print('Выберите второе блюдо: ')
-second_dish =  input().upper()
+second_dish =  input().upper().strip()
 print('Выберите третье блюдо: ')
-third_dish =  input().upper()
+third_dish =  input().upper().strip()
 print('На сколько человек?')
 people_count = int(input())
 
