@@ -1,6 +1,5 @@
 import os.path
 import subprocess
-from multiprocessing.dummy import Pool as ThreadPool
 
 source = 'Source'
 result = 'Result'
