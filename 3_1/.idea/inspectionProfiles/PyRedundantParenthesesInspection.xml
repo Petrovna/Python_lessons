@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/top_news.py</file>
+    <line>16</line>
+    <module>3_1</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/top_news.py" />
+    <problem_class severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Redundant parentheses</problem_class>
+    <description>Remove redundant parentheses</description>
+  </problem>
+</problems>
+

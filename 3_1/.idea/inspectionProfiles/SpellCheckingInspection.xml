@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/top_news.py</file>
+    <line>40</line>
+    <module>3_1</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/top_news.py" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'newsafr'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/top_news.py</file>
+    <line>40</line>
+    <module>3_1</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/top_news.py" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'newscy'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/top_news.py</file>
+    <line>40</line>
+    <module>3_1</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/top_news.py" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'newsfr'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/top_news.py</file>
+    <line>40</line>
+    <module>3_1</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/top_news.py" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'newsit'</description>
+  </problem>
+</problems>
+
